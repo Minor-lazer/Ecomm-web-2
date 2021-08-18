@@ -1,0 +1,27 @@
+.filter__menu {
+  /* width: 15rem; */
+  margin: 0.5rem;
+  border: none;
+  background-color:#ff7cda;
+  /* border: 1px solid black; */
+}
+
+.sort-options,
+.filter__options {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-options > div,
+.filter__options > div {
+  margin: 0.5rem 0;
+}
+
+.filter__options {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}

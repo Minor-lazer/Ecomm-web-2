@@ -1,0 +1,64 @@
+/********Navbar**********/
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+.navbar {
+  width: 100%;
+  background-color: #ff7cda;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  padding: 0.5rem;
+  margin: auto 0;
+  font-family: "Anton", sans-serif;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.search-box {
+  height: 100%;
+}
+
+.search-box > input {
+  height: 0.7rem;
+  width: 10rem;
+  outline: none;
+  color: rgb(61, 61, 61);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1.1rem 2rem 0 2rem;
+}
+
+.search-box > input:focus {
+  border: 1px solid grey;
+}
+
+.nav-items-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items-list li {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.nav-items-list li:hover {
+  border-bottom: 2px solid white;
+}
+
+.nav-links:link,
+.nav-links:visited,
+.nav-links {
+  color: white;
+  text-decoration: none;
+}

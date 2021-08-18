@@ -1,0 +1,44 @@
+.footer {
+  margin-top: 4rem;
+  color: white;
+  height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff7cda;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+}
+
+.footer-links > li {
+  margin: 0 1rem 0 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+}
+
+.footer-links > li:hover {
+  transform: scale(1.5);
+}
+
+.facebook:hover {
+  color: rgb(48, 48, 204);
+}
+
+.instagram:hover {
+  color: rgb(182, 0, 133);
+}
+
+.twitter:hover {
+  color: rgb(0, 104, 190);
+}
+
+.github:hover {
+  color: rgb(108, 28, 119);
+}

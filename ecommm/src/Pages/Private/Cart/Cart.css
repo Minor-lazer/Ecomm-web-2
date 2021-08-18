@@ -1,0 +1,16 @@
+.product__card--display {
+  border: 1px solid black;
+  margin: 0.8rem;
+}
+
+.cart__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart__layout {
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
