@@ -32,15 +32,15 @@ const Banner = () => {
   return (
     <div className="banner-card">
       <div className={frontClass} id="front-1">
-        <div className="text-box-top">Sweetness</div>
-        <h3 className="text-box-middle">Add some sweetness </h3>
-        <h3 className="text-box-lower">Mithais all around </h3>
+        <h3 className="text-box-top">Sweetness</h3>
+        <p className="text-box-middle">Add some sweetness to your life , and your taste buds</p>
+        {/* <h3 className="text-box-lower">Mithais all around </h3> */}
       </div>
       <div className={backClass} id="back-1">
         <div className = "banner-text">
-        <h3 className="text-box-top">Savouries</h3>
-        <h3 className="text-box-middle">Add some savouries </h3>
-        <h3 className="text-box-lower">Namkeens all around </h3>
+        <h3 className="text-box-top">Namkeens</h3>
+        <h3 className="text-box-middle">Indulge with your family time with some crunchiness</h3>
+        {/* <h3 className="text-box-lower">Namkeens all around </h3> */}
         </div>
       </div>
     </div>

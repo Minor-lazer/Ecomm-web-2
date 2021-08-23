@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar">
-        <div className="nav-brand">Misthan Bhandaar</div>
+        <div className="nav-brand">Agarwal Sweet Corner</div>
         <div className="nav-items">
           <ul className="nav-items-list">
             <li>
