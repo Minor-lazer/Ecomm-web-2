@@ -12,7 +12,7 @@ export default function ProductCard({
   return (
     <div className="product-card">
       <div className="product-image">
-        <img alt="product" />
+        <img src={item.image} alt="product" />
         <div
           className="wishlist-icon"
           style={{ color: wishlishtIconColor, display: displayIcon }}

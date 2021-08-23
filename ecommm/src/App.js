@@ -20,10 +20,10 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/products" element={<ProductPage />} />
-        <Route path="/wishlist" element={<WishlistPage />} />
+        <Route path="/cart" element={<Cart/>} />
         <Route exact path="/login" element={<Login />} />
-        <PrivateRoute path="/cart">
-          <Cart />
+        <PrivateRoute path="/wishlist">
+          <WishlistPage/>
         </PrivateRoute>
       </Routes>
       <Footer />

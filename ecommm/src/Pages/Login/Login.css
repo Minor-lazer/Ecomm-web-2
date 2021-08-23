@@ -39,7 +39,7 @@ h2 {
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
-  border: 2px solid #ff7cda;
+  border: 2px solid #E89512;
   background: #fff;
   padding: 30px;
   width: 90%;
@@ -140,11 +140,12 @@ input[type="text"]:focus {
 }
 
 #login {
-  border: 2px solid #ff7cda;
+
+  border: 2px solid #E89512 ;
 }
 
 #password {
-  border: 2px solid #ff7cda;
+  border: 2px solid #E89512 ;
 }
 
 input[type="text"]:placeholder {

@@ -13,12 +13,13 @@
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 2px solid #E89512;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
 .offer__card__inner:hover {
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
+  transform: scale(1.1);
 }
 
 .offer__card--text {
@@ -30,11 +31,27 @@
 
 .offer__card--front,
 .offer__card--back {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.layer {
+    background-color: grey;
+    opacity:0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.layer-writing 
+{
+  position:absolute;
 }
 
 .offer__card--front,
@@ -86,7 +103,7 @@ button:hover {
 }
 
 .offer__card--back {
-  background-color: dodgerblue;
+  background-color: #ff7cda;
   color: white;
   transform: rotateY(180deg);
 }

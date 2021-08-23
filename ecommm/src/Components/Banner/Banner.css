@@ -58,6 +58,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  right:50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
@@ -75,6 +76,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-shadow: 2px 2px 10px #0000006c;
+  margin:1rem 1rem 1rem;
 }
 
 .text-box-lower {
@@ -99,6 +101,7 @@
   opacity: 1;
 }
 
+
 #front-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url("https://www.orderyourchoice.com/117991-large_default/-rasgulla-shree-mithai-.jpg");
@@ -107,8 +110,10 @@
 /* Back */
 
 #back-1 {
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("https://www.orderyourchoice.com/117991-large_default/-rasgulla-shree-mithai-.jpg");
+    url("https://cdn.shopify.com/s/files/1/0116/2008/9956/collections/savouries_1200x1200.jpg?v=1563018276");
 }
 
 @media only screen and (max-width: 500px) {
